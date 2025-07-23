@@ -21,10 +21,23 @@ a:hover {
     border: 2px solid magenta;
     width: 620px;
     margin: 0 auto;
+    padding: 45px;
 }
 
 img {
     width: 100%;
 }
 
-section
+h2 {
+    margin-top: 0;
+}
+
+.section-one > .container > p {
+    margin-bottom: 0;
+}
+.section-one {
+    background-color: #fff;
+    color: #2e354f;
+}
+
+/*Buttons*/
