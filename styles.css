@@ -4,7 +4,6 @@ body {
     color: #fff;
     background-color: #2e354f;
     margin: 0;
-    border: 2px solid magenta
 }
 
 /*Typography*/
@@ -18,7 +17,6 @@ a:hover {
 
 /*Layout*/
 .container {
-    border: 2px solid magenta;
     width: 620px;
     margin: 0 auto;
     padding: 45px;
@@ -41,3 +39,16 @@ h2 {
 }
 
 /*Buttons*/
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 5%;
+}
+.orange {
+    background-color: #ef5839;
+    color: #2e354f;
+}
+.white {
+    background: #fff;
+    color: #2e354f;
+}
