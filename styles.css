@@ -1,8 +1,19 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
-    color: #FFF;
-    background-color: #2E354F;
+    color: #fff;
+    background-color: #2e354f;
     margin: 0;
     border: 2px solid magenta
 }
+
+/*Typography*/
+h2, a {
+    color: #ef5839;
+}
+a:focus,
+a:hover {
+    color: rgb(227, 181, 64);
+}
+
+/*Layout*/
