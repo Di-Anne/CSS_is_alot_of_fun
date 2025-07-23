@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+img {
+    width: 100%;
+}
+
 /*Typography*/
 h2, a {
     color: #ef5839;
@@ -17,13 +21,9 @@ a:hover {
 
 /*Layout*/
 .container {
-    width: 620px;
+    width: 90%;
     margin: 0 auto;
-    padding: 45px;
-}
-
-img {
-    width: 100%;
+    padding: 45px; 
 }
 
 h2 {
