@@ -1,21 +1,30 @@
+:root {
+    --blue-background-color: #2e354f; 
+    --orange-text-color: #ef5839;
+}
+
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     color: #fff;
-    background-color: #2e354f;
+    background-color: var(--blue-background-color);
     margin: 0;
 }
 
 img {
-    max-inline-size: 100%;
-    block-size: auto;
-    object-fit: contain;
+    width: 100%;
+    object-fit: cover;
 }
 
 /*Typography*/
 h2, a {
-    color: #ef5839;
+    color: var(--orange-text-color);
 }
+
+h1, h2 {
+    margin-top: 0;
+}
+
 a:focus,
 a:hover {
     color: rgb(227, 181, 64);
@@ -28,29 +37,37 @@ a:hover {
     padding: 45px; 
 }
 
-h2 {
-    margin-top: 0;
-}
-
-.section-one > .container > p {
-    margin-bottom: 0;
-}
 .section-one {
     background-color: #fff;
-    color: #2e354f;
+    color: var(--blue-background-color);
+}
+
+.section-one-info {
+    margin-bottom: 0;
 }
 
 /*Buttons*/
 .btn {
     display: inline-block;
-    padding: 10px 25px;
-    border-radius: 5%;
+    padding: 1em 1.5em;
 }
-.orange {
-    background-color: #ef5839;
-    color: #2e354f;
+
+.btn-orange {
+    background-color: var(--orange-text-color);
+    color: var(--blue-background-color);
 }
-.white {
+
+.btn-orange:focus, .btn-orange:hover {
+    background-color: #fff;
+    color: var(--blue-background-color);
+}
+
+.btn-white {
     background: #fff;
     color: #2e354f;
+}
+
+.btn-white:focus, .btn-white:hover {
+    background-color: var(--orange-text-color);
+    color: var(--blue-background-color);
 }
